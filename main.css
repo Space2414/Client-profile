@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "book antiqua", Georgia, serif;
+  color: whitesmoke;
+  background-color: black;
+  background-image: url(images/IMG_1943.JPG);
+}
+.nav {
+  display: flex;
+  gap: 500px;
+  justify-content: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-top: 69px;
+}
+
+header {
+  background-color: #ca7;
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 70px;
+
+  p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+  }
+}
+
+.box1 {
+  background-color: red;
+  width: 500px;
+  height: 736px;
+  background-image: url(images/IMG_1947.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box2 {
+  background-color: blue;
+  width: 500px;
+  height: 736px;
+  background-image: url(images/IMG_1945.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box3 {
+  background-color: green;
+  width: 500px;
+  height: 736px;
+  background-image: url(images/IMG_1946.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box4 {
+  background-color: yellow;
+  width: 500px;
+  height: 736px;
+  background-image: url(images/IMG_1933.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  min-height: cal (100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background-color: rgb(82, 77, 67, 0.685);
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100vw;
+}
+.social {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+}
